@@ -59,7 +59,7 @@ async def start():
     chain = qa_bot()
     message = chainlit.Message("Starting the app...")
     await message.send()
-    message.content = "Hi, welcome to SpendGPT. Ask Away..."
+    message.content = "Hi, welcome to botchat. Ask Away..."
     await message.update()
     chainlit.user_session.set("chain", chain)
 

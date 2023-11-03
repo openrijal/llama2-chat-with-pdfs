@@ -1,4 +1,4 @@
-# Example LLAMA2
+# LLAMA2 chat with PDFs, for CPU
 This example is using LLAMA2 for local pdf question/answer bot.
 
 # Local Setup
